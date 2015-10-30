@@ -5,21 +5,21 @@ public abstract class Vertex {
     private double y;
     private double z;
 
-    public Vertex(double x, double y, double z) {
+    protected Vertex(double x, double y, double z) {
         this.x = x;
         this.y = y;
         this.z = z;
     }
 
-    public double getX() {
+    protected double getX() {
         return x;
     }
 
-    public double getY() {
+    protected double getY() {
         return y;
     }
 
-    public double getZ() {
+    protected double getZ() {
         return z;
     }
 }
